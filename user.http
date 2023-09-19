@@ -1,0 +1,12 @@
+
+### API 1
+POST http://localhost:8080/register/
+Content-Type: application/json
+
+{
+  "username": "RohithSudhiksha",
+  "name": "Adam Richard",
+  "password": "hsbdkfbkdjsd69",
+  "gender": "male",
+  "location": "Detroit"
+}
