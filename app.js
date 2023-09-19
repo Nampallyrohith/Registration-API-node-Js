@@ -51,7 +51,7 @@ app.post("/register", async (request, response) => {
         );
         `;
         const insertQuery = await db.run(createUser);
-        if (request.body.password.length < 5){
+        if (password.length < 5){
             response.status(400);
             response.send("Password is too short");
         }
