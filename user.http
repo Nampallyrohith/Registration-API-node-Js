@@ -4,9 +4,9 @@ POST http://localhost:8080/register/
 Content-Type: application/json
 
 {
-  "username": "RohithSudhiksha",
+  "username": "adam_richard",
   "name": "Adam Richard",
-  "password": "hsbdkfbkdjsd69",
+  "password": "richard_567",
   "gender": "male",
   "location": "Detroit"
 }
