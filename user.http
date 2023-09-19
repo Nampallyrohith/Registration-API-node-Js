@@ -1,6 +1,6 @@
 
 ### API 1
-POST http://localhost:8080/register/
+POST http://localhost:8080/register
 Content-Type: application/json
 
 {
@@ -9,4 +9,23 @@ Content-Type: application/json
   "password": "richard_567",
   "gender": "male",
   "location": "Detroit"
+}
+
+### API 2
+POST http://localhost:8080/login
+Content-Type: :application/json
+
+{
+  "username": "adam_richard",
+  "password": "richard_567"
+}
+
+### API 3
+PUT http://localhost:8080/change-password
+Content-Type: application/json
+
+{
+  "username": "adam_richard",
+  "oldPassword": "richard_567",
+  "newPassword": "richard@123"
 }
